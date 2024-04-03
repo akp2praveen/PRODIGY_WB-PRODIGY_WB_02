@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: cadetblue;
+    
+}
+
+.stopwatch {
+    margin-top: 50px;
+    text-align: center;
+    border-style: dashed;
+    width: 350px;
+    height: 250px;
+    padding-top: 50px;
+
+}
+
+.display {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 1rem;
+}
+
+#lapTimes {
+    list-style-type: none;
+    padding: 0;
+}
+
+div h4:hover,div h4:focus{
+    color: crimson;
+}
+
+div span:hover,div span:focus{
+    color: crimson;
+}
+
+div button:hover,div button:focus{
+    color: greenyellow;
+}
+
+button{
+    background-color: crimson;
+    border-radius: 12px;
+    color: darkorange;
+}
